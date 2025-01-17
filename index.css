@@ -1,0 +1,368 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Droid+Sans&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'BureauGrot', 'Barlow', Impact, 'Avenir Next Condensed Heavy', 'Droid Sans', sans-serif;*/
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+}
+
+.na/v-link {
+  font-family: 'BureauGrot', 'Barlow', Impact, 'Avenir Next Condensed Heavy', 'Droid Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-control {
+  border-radius: 0;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.btn-outline-light {
+  border-radius: 0;
+
+}
+
+/* Search Bar Width Adjustment */
+.form-control {
+    width: 200px; /* Adjust the width as needed */
+    border-radius: 0;
+    font-family: 'Droid Sans', sans-serif;
+    
+  }
+
+section {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.text-container {
+    font-family: "BureauGrotCond Book", "Barlow Condensed", impact, "avenir next condensed heavy", "Droid Sans", sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+}    
+
+.ken {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    margin: 0;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.but{
+  background-color: black;
+  border: 1px solid;
+  color: #fed34c;
+  padding: 5px;
+}
+.but:hover{
+  background-color: #fed34c;
+  color: #000;
+}
+
+.new{
+  font-family: "BureauGrotCond Book", "Barlow Condensed", impact, "avenir next condensed heavy", "Droid Sans", sans-serif;
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-bottom: 3%;
+  font-size: 28.832px;
+  letter-spacing: normal;
+  line-height: 41,0856px;
+  font-weight: lighter;
+}
+
+.ven{
+  font-family: "BureauGrotCond Book", "Barlow Condensed", impact, "avenir next condensed heavy", "Droid Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: normal;
+  background-color: #ffffff;
+  border: 1px solid;
+
+}
+
+.future{
+  background: url('img/march.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: start; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+  min-height: 400px; /* Ensures the image has a minimum height */
+}
+
+.arti {
+  background: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+  padding: 20px;
+  text-align: left; /* Center the text */
+  color: #ffffff;
+  font-family: georgia, "droid serif", "Times New Roma", Times, serif;
+}
+
+.n:hover{
+  color: #ffffff;
+}
+
+a {
+  /* default styles for all <a> tags */
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+ 
+a:hover {
+  text-decoration: underline;
+  color: black;
+} 
+  
+.featured-article {
+  background: url('img/sky.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+  min-height: 300px; /* Ensures the image has a minimum height */
+}
+
+.featured-article-overlay {
+  background: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+  padding: 20px;
+  text-align: center; /* Center the text */
+  color: #ffffff;
+}
+
+.article-tag {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.additional-article {
+  margin-bottom: 20px;
+}
+
+*.additional-article .article-tag {
+  background-color: #6c757d; /* Customize color based on tag type */
+}
+
+.featured-article-overlay p {
+  background: none; /* Remove any background color */
+  border: none; /* Remove any border */
+  margin: 0;
+  padding: 0;
+}
+
+.jet{
+  display: flex;
+  flex-direction: column;
+}
+
+.fuel{
+  background-image: url(img/grad.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+
+.bill{
+  text-align: center;
+  padding: 10px;
+}
+
+.eng{
+  background-color: #fed34c;
+
+}
+
+.magazine-banner {
+  background: url('img/mag.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.text-contain {
+  background: rgba(255, 255, 255, 0.7); /* White background with transparency */
+  max-width: 50%;
+}
+
+.title {
+  font-family: 'BureauGrotCond Book', 'Barlow Condensed', impact, 'avenir next condensed heavy', 'Droid Sans', sans-serif;
+  color: #333;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'BureauGrotCond Book', 'Barlow Condensed', impact, 'avenir next condensed heavy', 'Droid Sans', sans-serif;
+  color: #333;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  height: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.event-details {
+  flex-grow: 1;
+}
+
+.date-box {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  height: 90px;
+}
+
+.date-box .month {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.date-box .day {
+  font-size: 2rem;
+}
+
+.time-box {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-contact,
+.footer-links,
+.footer-acknowledgment,
+.footer-social {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-contact p,
+.footer-acknowledgment p {
+  line-height: 1.5;
+}
+
+.footer-contact a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin: 8px 0;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-item {
+    margin-bottom: 10px;
+  }
+  .form-control {
+    margin-top: 10px;
+  }
+}
+
+  
